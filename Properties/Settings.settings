@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Izzi_Statistics_Override_WPF.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="key_user" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">a8a3ec2b3641593a3925e6490bc284dae68f09936@sky-mx2.test</Value>
+    </Setting>
+    <Setting Name="key_pass" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">7ba16a803092da2bfcfa09667b6af9c847a0064633ed0c5a90fe2cee84fb</Value>
+    </Setting>
+    <Setting Name="key_url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://sky-mx2.test.fs.ocs.oraclecloud.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
