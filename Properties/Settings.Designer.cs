@@ -25,7 +25,7 @@ namespace Izzi_Statistics_Override_WPF.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("a8a3ec2b3641593a3925e6490bc284dae68f09936@sky-mx2.test")]
+        [global::System.Configuration.DefaultSettingValueAttribute("8a3ec2b3641593a3925e6490bc284dae68f09936@izzifso20202.test")]
         public string key_user {
             get {
                 return ((string)(this["key_user"]));
@@ -34,7 +34,7 @@ namespace Izzi_Statistics_Override_WPF.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("7ba16a803092da2bfcfa09667b6af9c847a0064633ed0c5a90fe2cee84fb")]
+        [global::System.Configuration.DefaultSettingValueAttribute("d1c4455e13868e49287228038dab394391274a32f880f15234a6a9213256")]
         public string key_pass {
             get {
                 return ((string)(this["key_pass"]));
@@ -43,7 +43,7 @@ namespace Izzi_Statistics_Override_WPF.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://sky-mx2.test.fs.ocs.oraclecloud.com")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://izzifso20202.test.fs.ocs.oraclecloud.com")]
         public string key_url {
             get {
                 return ((string)(this["key_url"]));

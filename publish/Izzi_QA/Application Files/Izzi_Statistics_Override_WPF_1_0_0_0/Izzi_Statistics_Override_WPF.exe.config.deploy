@@ -10,15 +10,15 @@
     </startup>
   <applicationSettings>
     <Izzi_Statistics_Override_WPF.Properties.Settings>
-      <setting name="key_user" serializeAs="String">
-        <value>a8a3ec2b3641593a3925e6490bc284dae68f09936@sky-mx2.test</value>
-      </setting>
-      <setting name="key_pass" serializeAs="String">
-        <value>7ba16a803092da2bfcfa09667b6af9c847a0064633ed0c5a90fe2cee84fb</value>
-      </setting>
-      <setting name="key_url" serializeAs="String">
-        <value>https://sky-mx2.test.fs.ocs.oraclecloud.com</value>
-      </setting>
+        <setting name="key_user" serializeAs="String">
+            <value>8a3ec2b3641593a3925e6490bc284dae68f09936@izzifso20201.test</value>
+        </setting>
+        <setting name="key_pass" serializeAs="String">
+            <value>d1af1a86f2247c55ec9570e08a9d4289bc76300f1264f83a00723e290542</value>
+        </setting>
+        <setting name="key_url" serializeAs="String">
+            <value>https://izzifso20201.test.fs.ocs.oraclecloud.com</value>
+        </setting>
     </Izzi_Statistics_Override_WPF.Properties.Settings>
   </applicationSettings>
   <runtime>

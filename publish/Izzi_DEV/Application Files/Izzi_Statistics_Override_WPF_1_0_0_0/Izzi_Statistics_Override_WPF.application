@@ -7,14 +7,14 @@
     <framework targetVersion="4.6" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Izzi_Statistics_Override_WPF.exe.manifest" size="10727">
+    <dependentAssembly dependencyType="install" codebase="Application Files\Izzi_Statistics_Override_WPF_1_0_0_0\Izzi_Statistics_Override_WPF.exe.manifest" size="10727">
       <assemblyIdentity name="Izzi_Statistics_Override_WPF.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7lbzppkig0QU6j829tAsIIG1sdj5QozyWpDuwk2ik0Q=</dsig:DigestValue>
+        <dsig:DigestValue>YnId/J2r36YXpKDH6Zfbq5nWMMJ6NIWe0muwhNCM2Kk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

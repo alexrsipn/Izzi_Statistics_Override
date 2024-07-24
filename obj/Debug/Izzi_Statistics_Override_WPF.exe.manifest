@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ChCfOYdga173FRSUaifgdTIXev1GOaAaAHW+CAkWt7E=</dsig:DigestValue>
+        <dsig:DigestValue>vXgXnjFUnMCDDVQqGBB92yq91XORAXZGPzDFxDZcbYk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -159,13 +159,13 @@
       <dsig:DigestValue>LlKCbpPYhnevivM5J3EDY+1X5NwV1cy5V6xw6EiocXg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Izzi_Statistics_Override_WPF.exe.config" size="2134">
+  <file name="Izzi_Statistics_Override_WPF.exe.config" size="2138">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Zmi2/hNuAVQY0/w2r7hEupxDm392qUWwBPErJ0n3Exs=</dsig:DigestValue>
+      <dsig:DigestValue>9PMyo7U+u59XyJeWh9FrpcydImfOPabmwBY9xSXrvrg=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
