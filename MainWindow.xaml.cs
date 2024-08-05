@@ -27,7 +27,7 @@ namespace Izzi_Statistics_Override_WPF
         private async void Button_UploadFile_Click(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.OpenFileDialog file = new Microsoft.Win32.OpenFileDialog();
-            file.InitialDirectory = "c:\\Users\\ALEXRUIZ\\DEV\\Izzi_Statistics_Override_WPF\\Layout";
+            file.InitialDirectory = "c:\\";
             file.Filter = "Archivos CSV (*.csv)|*.csv";
             file.FilterIndex = 1;
             file.RestoreDirectory = true;
@@ -37,7 +37,8 @@ namespace Izzi_Statistics_Override_WPF
                 if (result == true)
                 {
                     TextBox_FileName.Text = file.FileName;
-                    logger.logPath = file.InitialDirectory;
+                    logger.logPath = Path.GetDirectoryName(file.FileName);
+                    MessageBox.Show(logger.logPath);
                     DataTable dt = new DataTable();
                     dt = await csv.ReadCSV(file.FileName);
                     csv.DTable = dt;

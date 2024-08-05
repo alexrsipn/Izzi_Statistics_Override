@@ -7,7 +7,7 @@
     <framework targetVersion="4.6" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Izzi_Statistics_Override_WPF.exe.manifest" size="10727">
+    <dependentAssembly dependencyType="install" codebase="Application Files\Izzi_Statistics_Override_WPF_1_0_0_1\Izzi_Statistics_Override_WPF.exe.manifest" size="10727">
       <assemblyIdentity name="Izzi_Statistics_Override_WPF.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>

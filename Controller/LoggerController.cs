@@ -41,7 +41,7 @@ namespace Izzi_Statistics_Override_WPF.Controller
                     path = _logPath + "\\log_patch.txt";
                     break;
                 default:
-                    path = _logPath + "\\log.txt";
+                    path = logPath + "\\log.txt";
                     break;
             }
             try

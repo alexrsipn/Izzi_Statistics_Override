@@ -22,10 +22,6 @@ namespace Izzi_Statistics_Override_WPF.Util
             PUT,
             PATCH
         }
-        //private string urlEnum
-        //{
-        //    "https://sky-mx2.test.fs.ocs.oraclecloud.com"
-        //}
         private static readonly HttpClient _client = new HttpClient();
         public async Task<string> OFSC_API (string endpoint, enumMethod enumMethod, string data)
         {
@@ -78,48 +74,6 @@ namespace Izzi_Statistics_Override_WPF.Util
                 return $"Error: {ex.Message} | Detalle {ex.InnerException.Message}";
             }
         }
-        //public async Task<string> UpdateActivityDurationStatistics(string data)
-        //{
-        //    string settingUser = Properties.Settings.Default.key_user;
-        //    string settingPass = Properties.Settings.Default.key_pass;
-        //    string endpoint = "/rest/ofscStatistics/v1/activityDurationStats";
-        //    string url = "https://sky-mx2.test.fs.ocs.oraclecloud.com" + endpoint;
-        //    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Ssl3;
-        //    _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($"{settingUser}:{settingPass}")));
-        //    _client.BaseAddress = new Uri("https://sky-mx2.test.fs.ocs.oraclecloud.com/");
-        //    if (!string.IsNullOrEmpty(data))
-        //    {
-        //        List<JObject> objectList = JsonConvert.DeserializeObject<List<JObject>>(data);
-        //        JObject json = new JObject();
-        //        json["items"] = JToken.FromObject(objectList);
-        //        string jsonString = json.ToString();
-        //        //var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-        //        var request = new HttpRequestMessage {
-        //            Method = new HttpMethod("PATCH"),
-        //            RequestUri = new Uri(_client.BaseAddress, endpoint),
-        //            Content = new StringContent(jsonString, Encoding.UTF8, "application/json")
-        //        };
-        //        try
-        //        {
-        //            var response = await _client.SendAsync(request);
-        //            if (response.IsSuccessStatusCode)
-        //            {
-        //                var result = await response.Content.ReadAsStringAsync();
-        //                return result;
-        //            }
-        //            else
-        //            {
-        //                string error = await request.Content.ReadAsStringAsync();
-        //                return $"Error: {error}";
-        //            }
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            return $"Error: {ex.Message} | Detalle {ex.InnerException.Message}";
-        //        }
-        //    }
-        //    return "Error en la plantilla";
-        //}
         public async Task<OFSC_Response> UpdateActivityDurationStatistics(string data)
         {
             string settingUser = Properties.Settings.Default.key_user;
